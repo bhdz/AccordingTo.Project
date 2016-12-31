@@ -1,0 +1,18 @@
+Pure Interface between to Equal End=Points. (No servers)
+
+Synch   [[ Synch! x //synched with/= y  ]]
+Expand  [[ Expand! x //expands/->  y]]
+Forfeit [[ ( x ) -> y / Forfeit //forfeits/! z ]]
+
+
+Instead of CREATE:
+Synch; Expand; Synch
+
+Instead of READ:
+Synch
+
+Instead of UPDATE:
+Expand; Synch
+
+Instead of DELETE:
+Synch; Forfeit; Synch
